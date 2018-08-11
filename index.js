@@ -8,7 +8,7 @@ function nowServing (line){
   while (line.length > 0) {
     return `Currently serving ${line[0]}.`
     line.shift();
-    window.alert(line);
+    console.log(line);
   }
 
   return "There is nobody waiting to be served!"

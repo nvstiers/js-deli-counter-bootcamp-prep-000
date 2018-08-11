@@ -1,5 +1,5 @@
 function takeANumber(array, name){
-  array.unshift(name)
+  array.push(name)
 
   return `Welcome, $(name). You are number $(array.length +1).`
 }
